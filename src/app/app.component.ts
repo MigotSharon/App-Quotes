@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Quotes } from './quotes';
+
 
 @Component({
   selector: 'app-root',
@@ -6,6 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   quotes:Quotes[] = [
     new Quotes(1, 'Quoted by Winston Churchill.', 'Never bend your head. Always hold it high. Look the world straight in the eye.',new Date(2020,3,14)),
     new Quotes(2,'Quoted by Mutahi Kagwe','If You can get it ,I can get it,anyone can get it',new Date(2020,6,9)),
@@ -15,6 +18,10 @@ export class AppComponent {
     new Quotes(6,'Quoted by Ahonen aknon','Growth of computer and technology careers is becoming more and more industry-agnostic.',new Date(2030,3,14)),
 
   ];
+
+  
+   
+  
 }
 
 
