@@ -1,1 +1,24 @@
-<p>quotes works!</p>
+<div class="container bg-warning">
+    <h1>Welcome To My App Quotes</h1>
+    <p>This app allows you to get quotes from different people around the world. Feel free to add a quote.</p>
+    <hr>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div *ngFor='let quotes of quotes;let i = index'>
+                <div>
+                    <h6 id={{i}} appStrikethrough>{{quotes.name}} due on {{quotes.completeDate|date|uppercase}}</h6>
+                    <button (click)='toggleDetails(i)' class="btn btn-primary">View More</button>
+                </div>
+
+                <div *ngIf='quotes.showDescription'>
+                    <app-quotes-detail [quotes]='quotes' (isComplete)='deleteQuotes($event,i)'></app-quotes-detail>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <app-quotes-form (addQuotes)="addNewQuotes($event)"></app-quotes-form>
+        </div>
+    </div>
+
+</div>
