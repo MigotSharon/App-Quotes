@@ -1,10 +1,10 @@
-
-<p>
-    {{quotes.description}}
-</p>
 <p>{{quotes.description}}</p>
-<p>This quotes will be complete in {{quotes.completeDate|dateCount}} days</p>
-<button (click)= 'quotesUpvote()' class="btn btn-outline-dark">Upvote</button>
-<button (click)='quotesDownvote()' class="btn btn-outline-dark">Downvote</button>
-<button (click)= 'quotesDelete(true)' class="btn btn-outline-dark">Delete Quotes</button>
-
+<p>{{quotes.author}}</p>
+<p>6 months {{quotes.completeDate|dateCount}} ago</p>
+<p>Downvote: {{quotesDownvoteNumber}}</p>
+<p>Upvote: {{quotesUpvoteNumber}}</p>
+<div id="btn">
+    <button (click)='quotesUpvote()' class="btn btn-outline-primary">Upvote</button>
+    <button (click)='quotesDownvote()' class="btn btn-outline-primary">Downvote</button>
+    <button (click)='quotesDelete(true)' class="btn btn-outline-primary">Delete Quotes</button>
+</div>
