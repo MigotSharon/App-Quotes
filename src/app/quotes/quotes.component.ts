@@ -38,11 +38,11 @@ export class QuotesComponent implements OnInit {
     this.quotes.push(quotes)
   }
 
+
+
   constructor() { }
 
   ngOnInit() {
   }
 
 }
-
-

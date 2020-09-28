@@ -26,7 +26,7 @@
             <input type="text" class="form-control" id="author" [(ngModel)]="newQuotes.name" name="author"
                 #author='ngModel' required>
             <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
-                <p>Enter Author of the quote</p>
+                <p>Enter Author's name</p>
             </div>
         </div>
 
@@ -48,10 +48,3 @@
         <p>Copyright@2020 www.sharon's Quotes-app</p>
     </div>
 </div>
-
-
-
-
-
-
-
