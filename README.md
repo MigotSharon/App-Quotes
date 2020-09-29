@@ -7,11 +7,20 @@
 # Author
 * MigotSharon
 
-# Figma link
-* 
+# Development
+* Want to contribute? Awesome! To fix a bug or enhance an existing module, follow these steps:
+
+* Fork the repo
+* Create a new branch (git checkout -b improve-feature)
+* Make the appropriate changes in the files
+* Add changes to reflect the changes made
+* Commit your changes (git commit -am 'Improve feature')
+* Push to the branch (git push origin improve-feature)
+* Create a Pull Request
+
 
 # Demo
-Here is a live working demo 
+Here is a live working demo https://migotsharon.github.io/App-Quotes/
 
 # Technologies Used
 * Typescript
@@ -29,14 +38,7 @@ This  project is licence under <a href="https://opensource.org/licenses/MIT"></a
 copyright (c) 2020 MigotSharon
 [MIT](https://github.com/MigotSharon/Quotes-App/blob/master/LICENSE)
 
-# BDD
-* Enter your name
-* Enter the Quotes
-* Enter the Author of the Qotes
-* The Date 
-* Then submit and your Quotes will be added
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
 ## Development server
 
