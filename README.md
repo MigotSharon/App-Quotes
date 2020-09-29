@@ -1,8 +1,13 @@
 # project name
 * Quotes-App
 
+# Project Description
+* 
 # Author
 * MigotSharon
+
+# Figma link
+* 
 
 # Demo
 Here is a live working demo
