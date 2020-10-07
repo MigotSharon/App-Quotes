@@ -18,6 +18,8 @@
 * Push to the branch (git push origin improve-feature)
 * Create a Pull Request
 
+# figma link
+* https://www.figma.com/file/yQlIYog0tUSlRUKk9Tn1mY/Screenshot-from-2020-09-28-18-56-27?node-id=0%3A1
 
 # Demo
 Here is a live working demo https://migotsharon.github.io/App-Quotes/
